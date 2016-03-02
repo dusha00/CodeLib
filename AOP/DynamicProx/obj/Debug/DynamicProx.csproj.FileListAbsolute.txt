@@ -1,0 +1,13 @@
+D:\Project\TestWeb\TestOutput\bin\Debug\TestOutput.exe.config
+D:\Project\TestWeb\TestOutput\bin\Debug\TestOutput.exe
+D:\Project\TestWeb\TestOutput\bin\Debug\TestOutput.pdb
+D:\Project\TestWeb\TestOutput\bin\Debug\Castle.Core.dll
+D:\Project\TestWeb\TestOutput\obj\Debug\DynamicProx.csprojResolveAssemblyReference.cache
+D:\Project\TestWeb\TestOutput\obj\Debug\TestOutput.exe
+D:\Project\TestWeb\TestOutput\obj\Debug\TestOutput.pdb
+D:\Project\GitHub\.NetLib\AOP\DynamicProx\bin\Debug\TestOutput.exe.config
+D:\Project\GitHub\.NetLib\AOP\DynamicProx\obj\Debug\TestOutput.exe
+D:\Project\GitHub\.NetLib\AOP\DynamicProx\obj\Debug\TestOutput.pdb
+D:\Project\GitHub\.NetLib\AOP\DynamicProx\bin\Debug\TestOutput.exe
+D:\Project\GitHub\.NetLib\AOP\DynamicProx\bin\Debug\TestOutput.pdb
+D:\Project\GitHub\.NetLib\AOP\DynamicProx\obj\Debug\DynamicProx.csprojResolveAssemblyReference.cache

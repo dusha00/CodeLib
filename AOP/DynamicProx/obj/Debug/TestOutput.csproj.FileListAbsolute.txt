@@ -1,0 +1,7 @@
+D:\Project\TestWeb\TestOutput\bin\Debug\TestOutput.exe.config
+D:\Project\TestWeb\TestOutput\bin\Debug\TestOutput.exe
+D:\Project\TestWeb\TestOutput\bin\Debug\TestOutput.pdb
+D:\Project\TestWeb\TestOutput\bin\Debug\Castle.Core.dll
+D:\Project\TestWeb\TestOutput\obj\Debug\TestOutput.csprojResolveAssemblyReference.cache
+D:\Project\TestWeb\TestOutput\obj\Debug\TestOutput.exe
+D:\Project\TestWeb\TestOutput\obj\Debug\TestOutput.pdb
