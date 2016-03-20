@@ -1,0 +1,11 @@
+E:\WorkSpace\文章\doNet\Src\模拟IIS\模拟IIS\bin\Debug\模拟IIS.exe.config
+E:\WorkSpace\文章\doNet\Src\模拟IIS\模拟IIS\bin\Debug\模拟IIS.exe
+E:\WorkSpace\文章\doNet\Src\模拟IIS\模拟IIS\bin\Debug\模拟IIS.pdb
+E:\WorkSpace\文章\doNet\Src\模拟IIS\模拟IIS\obj\Debug\模拟IIS.IISFrm.resources
+E:\WorkSpace\文章\doNet\Src\模拟IIS\模拟IIS\obj\Debug\模拟IIS.Properties.Resources.resources
+E:\WorkSpace\文章\doNet\Src\模拟IIS\模拟IIS\obj\Debug\模拟IIS.csproj.GenerateResource.Cache
+E:\WorkSpace\文章\doNet\Src\模拟IIS\模拟IIS\obj\Debug\模拟IIS.exe
+E:\WorkSpace\文章\doNet\Src\模拟IIS\模拟IIS\obj\Debug\模拟IIS.pdb
+E:\WorkSpace\文章\doNet\Src\模拟IIS\模拟IIS\obj\Debug\模拟IIS.csprojResolveAssemblyReference.cache
+E:\WorkSpace\文章\doNet\Src\模拟IIS\模拟IIS\bin\Debug\HttpLib.dll
+E:\WorkSpace\文章\doNet\Src\模拟IIS\模拟IIS\bin\Debug\HttpLib.pdb
