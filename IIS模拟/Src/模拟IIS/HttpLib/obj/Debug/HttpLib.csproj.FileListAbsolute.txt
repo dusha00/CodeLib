@@ -1,0 +1,5 @@
+E:\WorkSpace\文章\doNet\Src\模拟IIS\HttpLib\bin\Debug\HttpLib.dll
+E:\WorkSpace\文章\doNet\Src\模拟IIS\HttpLib\bin\Debug\HttpLib.pdb
+E:\WorkSpace\文章\doNet\Src\模拟IIS\HttpLib\obj\Debug\HttpLib.csprojResolveAssemblyReference.cache
+E:\WorkSpace\文章\doNet\Src\模拟IIS\HttpLib\obj\Debug\HttpLib.dll
+E:\WorkSpace\文章\doNet\Src\模拟IIS\HttpLib\obj\Debug\HttpLib.pdb
