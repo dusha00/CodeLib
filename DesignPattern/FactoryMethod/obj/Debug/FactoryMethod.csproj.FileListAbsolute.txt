@@ -1,0 +1,4 @@
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\FactoryMethod\bin\Debug\FactoryMethod.dll
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\FactoryMethod\bin\Debug\FactoryMethod.pdb
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.dll
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.pdb

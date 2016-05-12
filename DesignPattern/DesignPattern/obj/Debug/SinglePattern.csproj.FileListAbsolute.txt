@@ -1,0 +1,5 @@
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\DesignPattern\obj\Debug\SinglePattern.csprojResolveAssemblyReference.cache
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\DesignPattern\bin\Debug\SinglePattern.dll
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\DesignPattern\bin\Debug\SinglePattern.pdb
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\DesignPattern\obj\Debug\SinglePattern.dll
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\DesignPattern\obj\Debug\SinglePattern.pdb

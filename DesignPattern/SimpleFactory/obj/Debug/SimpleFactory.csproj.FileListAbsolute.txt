@@ -1,0 +1,4 @@
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\SimpleFactory\bin\Debug\SimpleFactory.dll
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\SimpleFactory\bin\Debug\SimpleFactory.pdb
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\SimpleFactory\obj\Debug\SimpleFactory.dll
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\SimpleFactory\obj\Debug\SimpleFactory.pdb

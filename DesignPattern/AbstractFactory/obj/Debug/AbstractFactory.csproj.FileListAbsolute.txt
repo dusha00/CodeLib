@@ -1,0 +1,5 @@
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\AbstractFactory\bin\Debug\AbstractFactory.dll
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\AbstractFactory\bin\Debug\AbstractFactory.pdb
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.csprojResolveAssemblyReference.cache
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.dll
+c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.pdb
