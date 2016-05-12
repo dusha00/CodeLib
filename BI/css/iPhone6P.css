@@ -1,0 +1,62 @@
+ 
+.loginitem i {
+	top: 10px;
+	position: absolute;
+	z-index: 1000;
+	display: inline-block;
+}
+
+.nav-title {
+	 
+	height: 100px;
+	 
+}
+.nav-footer {
+	 
+	margin-top: 70px;
+}
+
+.user-info {
+	 
+	right: 22%;
+}
+.menu-nav li {
+	height:170px;
+}
+.menu-nav i {
+	display: block;
+	margin: 55px auto 5px;
+}
+.icon-kpi {
+	color: #43cd95;
+	font-size: 2.5em;
+}
+
+.icon-momey {
+	color: #f6bf21;
+	font-size: 2.5em;
+}
+
+.icon-quality {
+	color: #32b3ea;
+	font-size: 2.5em;
+}
+
+.icon-forcast {
+	color: #8c9cf1;
+	font-size: 2.5em;
+}
+
+.icon-monitor {
+	color: #f8658b;
+	font-size: 2.5em;
+}
+
+.icon-help {
+	color: #6bd776;
+	font-size: 2.5em;
+}
+
+.icon-disbale{
+	color: #BFBFBF;
+}

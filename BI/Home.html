@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta id='viewport' name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+		<link href="css/mobiscroll.animation.css" rel="stylesheet" type="text/css" />
+		<link href="css/mobiscroll.frame.css" rel="stylesheet" type="text/css" />
+		<link href="css/mobiscroll.frame.ios.css" rel="stylesheet" type="text/css" />
+		<link href="css/mobiscroll.scroller.css" rel="stylesheet" type="text/css" />
+		<link href="css/mobiscroll.scroller.ios.css" rel="stylesheet" type="text/css" />
+		 
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/MobileBI.css" />
+		<link rel="stylesheet" type="text/css" href="css/iPhone6P.css" media="screen and (min-width: 321px)" />
+
+	</head>
+
+	<body>
+		<div class="main">
+			<div class="header">
+				<div class="hotelName">全季上海滩天潼路酒店(内宾)</div>
+				<select id="demo_select_hotel" style="display: none;">
+			        <option value="1">全季上海滩天潼路酒店1(内宾)</option>
+			        <option value="2">全季上海滩天潼路酒店2(内宾)</option>
+			        <option value="3">全季上海滩天潼路酒店3(内宾)</option>
+			        <option value="4">全季上海滩天潼路酒店4(内宾)</option>
+			        <option value="5">全季上海滩天潼路酒店5(内宾)</option>
+			        <option value="6">全季上海滩天潼路酒店6(内宾)</option>
+				    </select>
+				<div class="selectHotel" id="demo_select_div">
+					切换酒店>
+
+				</div>
+
+			</div>
+
+			<div class="title">
+				<span>
+	        		<i class="iconfont icon-block"> </i>
+	        		</span> 当季数据
+				<div class="selectYear">
+					<select id="demo_select" style="display: none;">
+			        <option value="2016">2016年</option>
+			        <option value="2015">2015年</option>
+			        <option value="2014">2014年</option>
+				    </select>
+					<div class="float-lt" id="div_year">2016年</div>
+					<span class="sel-down">
+					 <i class="iconfont icon-down"> </i>
+					 </span>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="quota">
+				<div class="nav nav4">
+					<ul>
+						<li class="active">Q1</li>
+						<li>Q2</li>
+						<li>Q3</li>
+						<li>Q4</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+				<div class="datamain">
+					<div class="data-content-left">
+						 <i class="iconfont icon-dollar"></i> 
+						<div class="data-block-kpi">99.97%</div>
+						<div class="data-block-des">营业收入完成度</div>
+					</div>
+					<div class="splitline"></div>
+					<div class="data-content-right">
+
+						<i class="iconfont icon-house"></i>
+						<div class="data-block-kpi">99.86%</div>
+						<div class="data-block-des">客房收入完成度</div>
+
+					</div>
+					<div class="clear"></div>
+					<div class="data-content-left">
+
+						<i class="iconfont icon-revpar"></i>
+						<div class="data-block-kpi">145.15</div>
+						<div class="data-block-des">Revpar</div>
+
+					</div>
+					<div class="splitline"></div>
+					<div class="data-content-right">
+
+						<i class="iconfont icon-avg-house"></i>
+						<div class="data-block-kpi">173.45</div>
+						<div class="data-block-des">平均房价</div>
+
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			<div class="title">
+				<span class="icon">
+	        		<i class="iconfont icon-block"> </i>
+	        	</span> 当年趋势
+			</div>
+			<div class="clear"></div>
+			<div class="trend">
+				<div class="nav nav4">
+					<ul>
+						<li class="active">销售</li>
+						<li>净利润</li>
+						<li>EBIT</li>
+						<li>房量</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+				<div class="chart" id="main"></div>
+			</div>
+
+			<div class="title">
+				<span class="icon">
+	        		<i class="iconfont icon-block"> </i>
+	        	</span> 至今数据
+
+			</div>
+			<div class="data">
+				<table class="kpi-table" id="tbKpi">
+					<thead>
+						<th style="width: 24%;">指标名</th>
+						<th>季实际值</th>
+						<th>季完成度</th>
+						<th>年实际值</th>
+						<th>年完成度</th>
+					</thead>
+					<tbody class="kpi-tbody">
+						<tr>
+
+							<td class="td-item">新增有效房量</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+
+						</tr>
+						<tr>
+
+							<td class="td-item">销售收入</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+						</tr>
+						<tr>
+
+							<td class="td-item">净利润</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+						</tr>
+						<tr>
+
+							<td class="td-item">EBIT息税前利润</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+
+		</div>
+
+		<footer class="footer">
+			<ul>
+				<li class="active">
+					<a href="Home.html"><i class="iconfont icon-home"></i>首页</a>
+				</li>
+				<li> <a href="KPIRank.html"><i class="iconfont icon-Rank"></i>排名</a>
+
+				</li>
+			</ul>
+		</footer>
+	</body>
+
+</html>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script src="js/echarts.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/mobiscroll.core.js"></script>
+<script src="js/mobiscroll.frame.js"></script>
+<script src="js/mobiscroll.scroller.js"></script>
+<script src="js/mobiscroll.select.js"></script>
+<script src="js/mobiscroll.frame.ios.js"></script>
+<script src="js/mobiscroll.i18n.zh.js"></script>
+<script>
+	(function() {
+		//#region 营收完成度折线图
+		var option2 = {
+			title: {
+				text: '',
+				x: 'left',
+				y: 'top',
+				padding: 60,
+				textAlign: "center",
+				textStyle: {
+					color: '#bfbfbf',
+					fontSize: '12',
+					fontWeight: 'normal'
+				}
+			},
+			tooltip: {
+				trigger: 'axis',
+				axisPointer: {
+					type: 'line',
+					lineStyle: {
+						color: '#bfbfbf',
+						width: 1,
+						type: 'solid'
+					},
+					crossStyle: {
+						color: '#1e90ff',
+						width: 1,
+						type: 'dashed'
+					},
+					shadowStyle: {
+						color: 'rgba(150,150,150,0.3)',
+						width: 'auto',
+						type: 'default'
+					}
+				}
+			},
+			legend: {
+				data: ['完成度', '目标值'],
+				x: 'right',
+				y: 'top',
+				padding: 15,
+				itemHeight: 8,
+				textStyle: {
+					color: '#bfbfbf'
+				}
+			},
+			grid: {
+				x: '0',
+				x2: '15',
+				y2: '25',
+				y: '65',
+				containLabel: true,
+				borderColor: "#bfbfbf"
+			},
+			xAxis: [{
+				type: 'category',
+				axisLabel: {
+					show: true,
+					textStyle: {
+						fontSize: 12,
+						color: "#666666"
+					}
+				},
+				nameLocation: "start",
+				boundaryGap: false,
+				data: ['02', '04', '06', '08', '10', '12(月)'],
+				axisLine: {
+					lineStyle: {
+						color: '#bfbfbf',
+						width: 0,
+						type: 'solid'
+					}
+				},
+				splitLine: false,
+				axisTick: {
+					show: false
+				}
+			}],
+			yAxis: [{
+				type: 'value',
+				name: "目标值(万)",
+				nameTextStyle: {
+					color: "#bfbfbf"
+				},
+				splitLine: {
+					lineStyle: {
+						color: ['#e4dfdc']
+					},
+				},
+				axisLabel: {
+					formatter: '{value}',
+					lineStyle: {
+						color: '#bfbfbf',
+						width: 0,
+						type: 'solid'
+					},
+					textStyle: {
+						fontSize: 12,
+						color: "#666666"
+					}
+				},
+				axisLine: {
+					lineStyle: {
+						color: '#e4dfdc',
+						width: 1,
+						type: 'solid'
+					}
+				},
+				axisTick: {
+					show: false
+				}
+			}, {
+				type: 'value',
+				splitLine: {
+					show: false
+				},
+				nameLocation: "end",
+				name: "          完成度",
+				nameTextStyle: {
+					color: "#bfbfbf"
+				},
+				axisLabel: {
+					formatter: '{value}%',
+					textStyle: {
+						fontSize: 12,
+						color: "#666666"
+					}
+				},
+				axisLine: {
+					lineStyle: {
+						color: '#e4dfdc',
+						width: 1,
+						type: 'solid'
+					}
+				},
+				axisTick: {
+					show: false
+				}
+			}],
+			label: {
+				normal: {
+					show: true,
+					position: 'top',
+					textStyle: {
+						color: 'darkred',
+						fontSize: '12'
+					}
+				}
+			},
+			series: [{
+				name: '目标值',
+				type: 'line',
+				itemStyle: {
+					normal: {
+						color: '#0067b1',
+						label: {
+							show: false
+						},
+						lineStyle: {
+							width: 1
+						}
+					}
+				},
+				smooth: true,
+				data: [12, 53.2, 101, 134, 90, 130]
+			}, {
+				name: '完成度',
+				type: 'line',
+				yAxisIndex: 1,
+				itemStyle: {
+					normal: {
+						color: '#c65976',
+						label: {
+							show: false
+						},
+						lineStyle: {
+							width: 1
+						}
+					}
+				},
+				smooth: true,
+				data: [10, 13, 54, 120, 6, 115]
+			}]
+		};
+		var myChart = echarts.init(document.getElementById('main'));
+		myChart.setOption(option2, true); //为echarts对象加载数据
+		//#endregion
+		// Select demo initialization
+		$('#demo_select').mobiscroll().select({
+			theme: 'ios', // Specify theme like: theme: 'ios' or omit setting to use default 
+			mode: 'Select', // Specify scroller mode like: mode: 'mixed' or omit setting to use default 
+			display: 'bottom', // Specify display mode like: display: 'bottom' or omit setting to use default 
+			lang: 'zh', // Specify language like: lang: 'pl' or omit setting to use default
+			height: 50,
+			rows: 5,
+			onCancel: function() {
+				$(".main").removeClass("blur");
+			}
+		});
+		$('#demo_select_hotel').mobiscroll().select({
+			theme: 'ios', // Specify theme like: theme: 'ios' or omit setting to use default 
+			mode: 'Select', // Specify scroller mode like: mode: 'mixed' or omit setting to use default 
+			display: 'bottom', // Specify display mode like: display: 'bottom' or omit setting to use default 
+			lang: 'zh', // Specify language like: lang: 'pl' or omit setting to use default 
+			height: 50,
+			rows: 5,
+			onCancel: function() {
+				$(".main").removeClass("blur");
+			}
+		});
+		$('#demo_select').change(function() {
+			$(".main").removeClass("blur");
+		})
+		$('#demo_select_hotel').change(function() {
+			$(".hotelName").text($(this).find("option:selected").text());
+			$(".main").removeClass("blur");
+		})
+		$("#demo_select").change(function() {
+			$("#div_year").text($(this).find("option:selected").text());
+		});
+		$(".nav ul li").click(function() {
+			$(this).addClass("active").siblings().removeClass("active");
+		});
+		$("#div_year").click(function() {
+			$("#demo_select_dummy").click();
+			$(".main").addClass("blur");
+		});
+		$("#demo_select_div").on("click", function(e) {
+			$("#demo_select_hotel_dummy").click();
+			$(".main").addClass("blur");
+		});
+		$(".kpi-table tr:odd").addClass("td-shown");
+	})();
+</script>

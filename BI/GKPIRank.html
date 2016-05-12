@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+	<meta id='viewport' name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/MobileBI.css" />
+		<title></title>
+	</head>
+
+	<body>
+		<div class="main">
+			<div class="header">
+				<div class="hotelName">全季上海滩天潼路酒店(内宾)</div>
+			</div>
+				<div class="nav nav2">
+					<ul>
+						<li class="active">新增房量</li>
+						<li>销售收入</li>
+					 
+					</ul>
+				</div>
+			<div class="title">
+				<span>
+	        		<i class="iconfont icon-block"> </i>
+	        </span> UTD
+
+			</div>
+			<div class="data">
+				<table class="kpi-table" id="tbKpi">
+					<thead>
+						<th>地区</th>
+						<th>销售收入</th>
+						<th>完成度</th>
+						<th>排行</th>
+
+					</thead>
+					<tbody class="kpi-tbody">
+						<tr>
+
+							<td class="td-item">华南大区</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+
+							<td class="td-detail">1</td>
+
+						</tr>
+						<tr>
+
+							<td class="td-item">东北大区</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+							<td class="td-detail">5</td>
+
+						</tr>
+						<tr>
+
+							<td class="td-item">中东大区</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+							<td class="td-detail">4</td>
+
+						</tr>
+						<tr>
+
+							<td class="td-item">华南二区</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+							<td class="td-detail">9</td>
+
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+			<div class="title">
+				<span>
+	        		<i class="iconfont icon-block"> </i>
+	        </span> MTD
+
+			</div>
+
+			<div class="data">
+				<table class="kpi-table" id="tbKpi">
+					<thead>
+						<th>地区</th>
+						<th>销售收入</th>
+						<th>完成度</th>
+						<th>排行</th>
+
+					</thead>
+					<tbody class="kpi-tbody">
+						<tr>
+
+							<td class="td-item">华南大区</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+
+							<td class="td-detail">1</td>
+
+						</tr>
+						<tr>
+
+							<td class="td-item">东北大区</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+							<td class="td-detail">5</td>
+
+						</tr>
+						<tr>
+
+							<td class="td-item">中东大区</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+							<td class="td-detail">4</td>
+
+						</tr>
+						<tr>
+
+							<td class="td-item">华南二区</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+							<td class="td-detail">9</td>
+
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+			<div class="title">
+				<span>
+	        		<i class="iconfont icon-block"> </i>
+	        </span> QTD
+
+			</div>
+
+			<div class="data">
+				<table class="kpi-table" id="tbKpi">
+					<thead>
+						<th>地区</th>
+						<th>销售收入</th>
+						<th>完成度</th>
+						<th>排行</th>
+
+					</thead>
+					<tbody class="kpi-tbody">
+						<tr>
+
+							<td class="td-item">华南大区</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+
+							<td class="td-detail">1</td>
+
+						</tr>
+						<tr>
+
+							<td class="td-item">东北大区</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+							<td class="td-detail">5</td>
+
+						</tr>
+						<tr>
+
+							<td class="td-item">中东大区</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+							<td class="td-detail">4</td>
+
+						</tr>
+						<tr>
+
+							<td class="td-item">华南二区</td>
+							<td class="td-detail">10000</td>
+							<td class="td-detail">90%</td>
+							<td class="td-detail">9</td>
+
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+
+			<div class="split"></div>
+			<footer class="footer">
+				<ul>
+					<li>
+						<a href="Home.html"><i class="iconfont icon-home"></i>首页</a>
+					</li>
+					<li class="active"> <a href="KPIRank.html"><i class="iconfont icon-Rank"></i>排名</a>
+
+					</li>
+				</ul>
+			</footer>
+
+		</div>
+	</body>
+
+</html>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+
+<script>
+	$(function() {
+		$(".kpi-table tr:odd").addClass("td-shown");
+		$(".nav ul li").click(function() {
+			$(this).addClass("active").siblings().removeClass("active");
+		});
+	});
+</script>

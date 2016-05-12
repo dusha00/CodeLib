@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<meta id='viewport' name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+		<link href="../css/mobiscroll.animation.css" rel="stylesheet" type="text/css" />
+		<link href="../css/mobiscroll.frame.css" rel="stylesheet" type="text/css" />
+		<link href="../css/mobiscroll.frame.ios.css" rel="stylesheet" type="text/css" />
+		<link href="../css/mobiscroll.scroller.css" rel="stylesheet" type="text/css" />
+		<link href="../css/mobiscroll.scroller.ios.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="../css/MobileBI.css" />
+		<link rel="stylesheet" type="text/css" href="../tabPlugs/tab.css" />
+
+	</head>
+
+	<body>
+		<div class="main">
+
+			<div class="nav nav4">
+				<ul>
+					<li data-value="1" style="font-size: 12px;" class="active">经营指标</li>
+					<li data-value="2" style="font-size: 12px;">中央预定指标</li>
+					<li data-value="3" style="font-size: 12px;">会员指标</li>
+					<li data-value="4" style="font-size: 12px;">折扣率指标</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="title">
+				<span class="icon">
+	        		<i class="iconfont icon-block"> </i>
+	        	</span> 至今数据
+				<div class="selectYear">
+
+					<div class="float-lt" id="div_year">2016/05</div>
+					<span class="sel-down">
+					 <i class="iconfont icon-down"> </i>
+					 </span>
+				</div>
+				<div data-role="fieldcontain" class="demo-cont" id="demo_cont_date" style="display: none;">
+
+					<input type="text" id="demo_date" />
+				</div>
+			</div>
+			<div class="data">
+				<table class="kpi-table" id="tbKpi">
+					<thead>
+						<th style="width: 24%;">中央预定指标</th>
+						<th>WEEK</th>
+						<th>MTD</th>
+						<th>YTD</th>
+
+					</thead>
+					<tbody class="kpi-tbody">
+						<tr>
+
+							<td class="td-item">中央预订绝对%(15+)</td>
+							<td class="td-detail">10W</td>
+							<td class="td-detail">10W</td>
+							<td class="td-detail">90.5%</td>
+
+						</tr>
+						<tr>
+
+							<td class="td-item">加盟店疑似切客%</td>
+							<td class="td-detail">10W</td>
+							<td class="td-detail">10W</td>
+							<td class="td-detail">90.5%</td>
+						</tr>
+						<tr>
+
+							<td class="td-item">移动端转换率</td>
+							<td class="td-detail">10W</td>
+							<td class="td-detail">10W</td>
+							<td class="td-detail">90.5%</td>
+						</tr>
+						<tr>
+
+							<td class="td-item">本人本卡绝对%</td>
+							<td class="td-detail">10W</td>
+							<td class="td-detail">10W</td>
+							<td class="td-detail">90.5%</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</div>
+			<div class="title">
+				<span class="icon">
+	        		<i class="iconfont icon-block"> </i>
+	        	</span> 至今数据
+
+			</div>
+			<div class="trend" style="overflow-x: hidden;">
+				<div id="tabDiv">
+					<!--<ul style="line-height: 22px;font-size: 12px;">
+						<li class="active">中央预订绝对%(15+)</li>
+						<li>加盟店疑似切客%</li>
+						<li>移动端转换<br>率</li>
+						<li>本人本卡绝对%</li>
+						
+					</ul>-->
+				</div>
+				<div class="clear"></div>
+				<div class="chart" id="mainDay"></div>
+				<div class="chart" id="mainMonth" style="margin-top: 10px;"></div>
+			</div>
+
+		</div>
+
+		<footer class="footer">
+			<ul>
+				<li>
+					<a href="Home.html"><i class="iconfont icon-home"></i>总览</a>
+				</li>
+				<li class="active">
+					<a href="Detail.html"><i class="iconfont icon-Rank"></i>详情</a>
+
+				</li>
+			</ul>
+		</footer>
+
+	</body>
+
+</html>
+<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/echarts.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/mobiscroll.core.js"></script>
+<script src="../js/mobiscroll.frame.js"></script>
+<script src="../js/mobiscroll.scroller.js"></script>
+<script src="../js/mobiscroll.select.js"></script>
+<script src="../js/mobiscroll.frame.ios.js"></script>
+<script src="../js/mobiscroll.util.datetime.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/mobiscroll.datetimebase.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/mobiscroll.datetime.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/mobiscroll.i18n.zh.js"></script>
+<script src="../js/jquery.touchSwipe.js" type="text/javascript" charset="utf-8"></script>
+<script src="../tabPlugs/scroll_tab.js" type="text/javascript" charset="utf-8"></script>
+<script>
+	(function() {
+	
+		//#region 营收完成度折线图
+		var option2 = {
+			title: {
+				text: 'ByDay',
+				x: 'left',
+				y: 'top',
+				padding: 10,
+				textAlign: "left",
+				textStyle: {
+					color: '#0067B1',
+					fontSize: '12',
+					fontWeight: 'normal'
+				}
+			},
+			tooltip: {
+				trigger: 'axis',
+				axisPointer: {
+					type: 'line',
+					lineStyle: {
+						color: '#bfbfbf',
+						width: 1,
+						type: 'solid'
+					},
+					crossStyle: {
+						color: '#1e90ff',
+						width: 1,
+						type: 'dashed'
+					},
+					shadowStyle: {
+						color: 'rgba(150,150,150,0.3)',
+						width: 'auto',
+						type: 'default'
+					}
+				}
+			},
+			legend: {
+				data: ['完成度', '目标值'],
+				x: 'right',
+				y: 'top',
+				padding: 15,
+				itemHeight: 8,
+				textStyle: {
+					color: '#bfbfbf'
+				}
+			},
+			grid: {
+				x: '0',
+				x2: '15',
+				y2: '25',
+				y: '65',
+				containLabel: true,
+				borderColor: "#bfbfbf"
+			},
+			xAxis: [{
+				type: 'category',
+				axisLabel: {
+					show: true,
+					textStyle: {
+						fontSize: 12,
+						color: "#666666"
+					}
+				},
+				nameLocation: "start",
+				boundaryGap: false,
+				data: ['02', '04', '06', '08', '10', '12(月)'],
+				axisLine: {
+					lineStyle: {
+						color: '#bfbfbf',
+						width: 0,
+						type: 'solid'
+					}
+				},
+				splitLine: false,
+				axisTick: {
+					show: false
+				}
+			}],
+			yAxis: [{
+				type: 'value',
+				name: "目标值(万)",
+				nameTextStyle: {
+					color: "#bfbfbf"
+				},
+				splitLine: {
+					lineStyle: {
+						color: ['#e4dfdc']
+					},
+				},
+				axisLabel: {
+					formatter: '{value}',
+					lineStyle: {
+						color: '#bfbfbf',
+						width: 0,
+						type: 'solid'
+					},
+					textStyle: {
+						fontSize: 12,
+						color: "#666666"
+					}
+				},
+				axisLine: {
+					lineStyle: {
+						color: '#e4dfdc',
+						width: 1,
+						type: 'solid'
+					}
+				},
+				axisTick: {
+					show: false
+				}
+			}, {
+				type: 'value',
+				splitLine: {
+					show: false
+				},
+				nameLocation: "end",
+				name: "          完成度",
+				nameTextStyle: {
+					color: "#bfbfbf"
+				},
+				axisLabel: {
+					formatter: '{value}%',
+					textStyle: {
+						fontSize: 12,
+						color: "#666666"
+					}
+				},
+				axisLine: {
+					lineStyle: {
+						color: '#e4dfdc',
+						width: 1,
+						type: 'solid'
+					}
+				},
+				axisTick: {
+					show: false
+				}
+			}],
+			label: {
+				normal: {
+					show: true,
+					position: 'top',
+					textStyle: {
+						color: 'darkred',
+						fontSize: '12'
+					}
+				}
+			},
+			series: [{
+				name: '目标值',
+				type: 'line',
+				itemStyle: {
+					normal: {
+						color: '#0067b1',
+						label: {
+							show: false
+						},
+						lineStyle: {
+							width: 1
+						}
+					}
+				},
+				smooth: true,
+				data: [12, 53.2, 101, 134, 90, 130]
+			}, {
+				name: '完成度',
+				type: 'line',
+				yAxisIndex: 1,
+				itemStyle: {
+					normal: {
+						color: '#c65976',
+						label: {
+							show: false
+						},
+						lineStyle: {
+							width: 1
+						}
+					}
+				},
+				smooth: true,
+				data: [10, 13, 54, 120, 6, 115]
+			}]
+		};
+		var myChart = echarts.init(document.getElementById('mainDay'));
+		myChart.setOption(option2, true);
+		var myChart = echarts.init(document.getElementById('mainMonth'));
+		myChart.setOption(option2, true);
+		var tabDic = {
+			"1": {
+				data: [{
+					text: "RevPAR",
+					value: 1
+				}, {
+					text: "OCC",
+					value: 2
+				}, {
+					text: "ADR",
+					value: 3
+				}, {
+					text: "RevPAR完成度",
+					value: 4
+				}, {
+					text: "营收完成度",
+					value: 5
+				}],
+				scroll: false,
+				tWidth: "100%",
+				itemWidth: "20%"
+			},
+			"2": {
+				data: [{
+					text: "中央预订绝对%（15+)",
+					value: 1
+				}, {
+					text: "加盟店疑似切客%",
+					value: 2
+				}, {
+					text: "移动端转换率",
+					value: 3
+				}, {
+					text: "本人本卡绝对%",
+					value: 4
+				}],
+				scroll: true,
+				tWidth: "120%",
+				itemWidth: "32%"
+			},
+			"3": {
+				data: [{
+					text: "会员转换率",
+					value: 1
+				}, {
+					text: "售卡数",
+					value: 2
+				}, {
+					text: "会员占比",
+					value: 3
+				}, {
+					text: "复购率",
+					value: 4
+				}],
+				scroll: false,
+				tWidth: "100%",
+				itemWidth: "25%"
+			},
+			"4": {
+				data: [{
+					text: "过夜OCC",
+					value: 1
+				}, {
+					text: "过夜无从折扣率",
+					value: 2
+				}, {
+					text: "免升%",
+					value: 3
+				}, {
+					text: "负调账",
+					value: 4
+				}, {
+					text: "优惠123",
+					value: 5
+				}],
+				scroll: true
+			}
+		}
+		var now = new Date();
+		$('#demo_date').mobiscroll().date({
+			theme: 'ios', // Specify theme like: theme: 'ios' or omit setting to use default 
+			mode: 'scroller', // Specify scroller mode like: mode: 'mixed' or omit setting to use default 
+			display: 'bottom', // Specify display mode like: display: 'bottom' or omit setting to use default 
+			lang: 'zh', // Specify language like: lang: 'pl' or omit setting to use default
+			height: 50,
+			rows: 5,
+			onHide: function() {
+				$(".main").removeClass("blur");
+			},
+			//			invalid: [ new Date(2012,5,4), new Date(2012,5,13), 'w0', 'w6', '5/1', '12/24', '12/25'],
+			dateOrder: 'yymm',
+			dateFormat: 'yy/mm',
+			minDate: new Date("2015-01"),
+			maxDate: now,
+			onSelect: function(valueText, inst) {
+				$("#div_year").text(valueText);
+			}
+		});
+		$(".nav ul li").click(function() {
+			$(this).addClass("active").siblings().removeClass("active");
+			var value = $(this).data('value');
+			$("#tabDiv").Tabview(tabDic[value],"",value);
+		});
+		$("#div_year").click(function() {
+			$("#demo_date").click();
+			$(".main").addClass("blur");
+		});
+		$("#tabDiv").Tabview(tabDic["1"])
+	})();
+</script>

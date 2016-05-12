@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta id='viewport' name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+		<title>用户登录</title>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/MobileBI.css" />
+		<link rel="stylesheet" type="text/css" href="css/iPhone6P.css" media="screen and (min-width: 321px)" />
+	</head>
+
+	<body class="logContent">
+		<div class="logContent">
+			<div class="loginTile">
+				用户登录
+			</div>
+			<div class="loginInfo">
+				<div class="loginitem">
+					<input type="text" placeholder="输入手机号" />
+					<i class="iconfont icon-username lt"></i>
+				</div>
+
+				<div class="loginitem">
+
+					<input type="password" placeholder="输入密码" id="txtPassword" />
+					<i class="iconfont icon-password lt"></i>
+					<i class="iconfont icon-close-password rg hotArea"  id="showPassword"></i>
+				</div>
+
+			</div>
+			<div class="loginInfo loginitem">
+				<input type="text" placeholder="验证码" />
+				<i class="iconfont icon-key lt"></i>
+				<i class="iconfont rg code">3k65</i>
+
+			</div>
+			<div class="loginButton">
+				<a href="nav.html">登录</a>
+			</div>
+			<div class="savePassword">
+				<div class="checkbox">
+					<input type="checkbox" id="saveChk" checked="true" />
+					<label for="saveChk"></label>
+				</div>
+				记住密码
+			</div>
+		</div>
+	</body>
+
+</html>
+<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8">
+</script>
+
+<script type="text/javascript">
+	$(function() {
+		var txtPassword = document.getElementById("txtPassword");
+		$("#showPassword").click(function() {
+			var $this = $(this);
+			if ($this.hasClass("icon-close-password")) {
+				$this.removeClass("icon-close-password");
+				$this.addClass("icon-open-password");
+				txtPassword.type = "text";
+			} else {
+				$this.removeClass("icon-open-password");
+				$this.addClass("icon-close-password");
+				txtPassword.type = "password";
+			}
+		});
+		$(".loginButton a").on("touchstart", function() {
+			$(this).addClass("loginButtonsel");
+		});
+			$(".loginButton a").on("touchcancel", function() {
+			$(this).addClass("loginButtonsel");
+		});
+	});
+</script>
