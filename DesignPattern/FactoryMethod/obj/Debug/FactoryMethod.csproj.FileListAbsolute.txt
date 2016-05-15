@@ -2,3 +2,8 @@ c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\FactoryMethod\bi
 c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\FactoryMethod\bin\Debug\FactoryMethod.pdb
 c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.dll
 c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\FactoryMethod\bin\Debug\FactoryMethod.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\FactoryMethod\bin\Debug\FactoryMethod.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.csprojResolveAssemblyReference.cache
+E:\WorkSpace\Code\CodeLib\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.pdb

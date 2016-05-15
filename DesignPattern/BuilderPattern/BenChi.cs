@@ -19,7 +19,7 @@ namespace BuilderPattern
             _car.Add("beichi Wheel");
         }
 
-        public override Car GetComputer()
+        public override Car GetCar()
         {
             return _car;
         }

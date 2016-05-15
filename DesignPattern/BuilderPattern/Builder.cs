@@ -10,6 +10,6 @@ namespace BuilderPattern
     {
         public abstract void BuilderSeat();
         public abstract void BuilderWheel();
-        public abstract Car GetComputer();
+        public abstract Car GetCar();
     }
 }

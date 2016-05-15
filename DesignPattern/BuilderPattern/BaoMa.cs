@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace BuilderPattern
 {
-   public class BaoMa
+   public class BaoMa:Builder
     {
+        readonly Car _car = new Car();
+        public override void BuilderSeat()
+        {
+            _car.Add("baoma Seat");
+        }
+
+        public override void BuilderWheel()
+        {
+            _car.Add("baoma Wheel");
+        }
+
+        public override Car GetCar()
+        {
+            return _car;
+        }
     }
 }

@@ -12,3 +12,23 @@ c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\ConsoleInfo\bin\
 c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\ConsoleInfo\bin\Debug\FactoryMethod.pdb
 c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\ConsoleInfo\bin\Debug\AbstractFactory.dll
 c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\ConsoleInfo\bin\Debug\AbstractFactory.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\ConsoleInfo.exe.config
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\obj\Debug\ConsoleInfo.exe
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\obj\Debug\ConsoleInfo.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\ConsoleInfo.exe
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\ConsoleInfo.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\AbstractFactory.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\FactoryMethod.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\SimpleFactory.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\SinglePattern.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\AbstractFactory.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\SinglePattern.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\FactoryMethod.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\SimpleFactory.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\obj\Debug\ConsoleInfo.csprojResolveAssemblyReference.cache
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\BuilderPattern.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\BuilderPattern.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\Prototype.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\Prototype.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\Adapter.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\Adapter.pdb

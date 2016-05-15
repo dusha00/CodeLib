@@ -52,6 +52,14 @@
       <Project>{c80607fd-0b73-4027-8560-73ac5116891b}</Project>
       <Name>AbstractFactory</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Adapter\Adapter.csproj">
+      <Project>{2c28f95e-9811-4a6b-82cb-8d5a9f83a74c}</Project>
+      <Name>Adapter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj">
+      <Project>{0d9ee577-cf75-4bfe-ae5e-b95b9cd081da}</Project>
+      <Name>BuilderPattern</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DesignPattern\SinglePattern.csproj">
       <Project>{277FBBF5-211D-4F91-B3F0-47CB2EAAB95D}</Project>
       <Name>SinglePattern</Name>
@@ -59,6 +67,10 @@
     <ProjectReference Include="..\FactoryMethod\FactoryMethod.csproj">
       <Project>{f06de091-8524-4d4a-ae26-066b55be6780}</Project>
       <Name>FactoryMethod</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prototype\Prototype.csproj">
+      <Project>{d6834d7d-e60c-4463-afca-8ecf981b54a7}</Project>
+      <Name>Prototype</Name>
     </ProjectReference>
     <ProjectReference Include="..\SimpleFactory\SimpleFactory.csproj">
       <Project>{3B475288-4CF9-454B-88E0-0B2A1B08C7FC}</Project>

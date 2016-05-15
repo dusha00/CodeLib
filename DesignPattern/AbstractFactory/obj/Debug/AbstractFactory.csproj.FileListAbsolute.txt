@@ -3,3 +3,8 @@ c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\AbstractFactory\
 c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.csprojResolveAssemblyReference.cache
 c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.dll
 c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\AbstractFactory\bin\Debug\AbstractFactory.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\AbstractFactory\bin\Debug\AbstractFactory.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.csprojResolveAssemblyReference.cache
+E:\WorkSpace\Code\CodeLib\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.pdb

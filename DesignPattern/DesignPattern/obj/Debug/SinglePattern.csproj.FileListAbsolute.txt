@@ -3,3 +3,8 @@ c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\DesignPattern\bi
 c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\DesignPattern\bin\Debug\SinglePattern.pdb
 c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\DesignPattern\obj\Debug\SinglePattern.dll
 c:\users\fu\documents\visual studio 2013\Projects\DesignPattern\DesignPattern\obj\Debug\SinglePattern.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\DesignPattern\bin\Debug\SinglePattern.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\DesignPattern\bin\Debug\SinglePattern.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\DesignPattern\obj\Debug\SinglePattern.csprojResolveAssemblyReference.cache
+E:\WorkSpace\Code\CodeLib\DesignPattern\DesignPattern\obj\Debug\SinglePattern.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\DesignPattern\obj\Debug\SinglePattern.pdb
