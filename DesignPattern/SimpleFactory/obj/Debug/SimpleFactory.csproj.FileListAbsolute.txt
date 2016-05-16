@@ -7,3 +7,8 @@ E:\WorkSpace\Code\CodeLib\DesignPattern\SimpleFactory\bin\Debug\SimpleFactory.pd
 E:\WorkSpace\Code\CodeLib\DesignPattern\SimpleFactory\obj\Debug\SimpleFactory.csprojResolveAssemblyReference.cache
 E:\WorkSpace\Code\CodeLib\DesignPattern\SimpleFactory\obj\Debug\SimpleFactory.dll
 E:\WorkSpace\Code\CodeLib\DesignPattern\SimpleFactory\obj\Debug\SimpleFactory.pdb
+D:\Project\CodeLib\DesignPattern\SimpleFactory\bin\Debug\SimpleFactory.dll
+D:\Project\CodeLib\DesignPattern\SimpleFactory\bin\Debug\SimpleFactory.pdb
+D:\Project\CodeLib\DesignPattern\SimpleFactory\obj\Debug\SimpleFactory.csprojResolveAssemblyReference.cache
+D:\Project\CodeLib\DesignPattern\SimpleFactory\obj\Debug\SimpleFactory.dll
+D:\Project\CodeLib\DesignPattern\SimpleFactory\obj\Debug\SimpleFactory.pdb

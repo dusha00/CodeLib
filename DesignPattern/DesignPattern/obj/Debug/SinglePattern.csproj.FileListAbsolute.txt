@@ -8,3 +8,8 @@ E:\WorkSpace\Code\CodeLib\DesignPattern\DesignPattern\bin\Debug\SinglePattern.pd
 E:\WorkSpace\Code\CodeLib\DesignPattern\DesignPattern\obj\Debug\SinglePattern.csprojResolveAssemblyReference.cache
 E:\WorkSpace\Code\CodeLib\DesignPattern\DesignPattern\obj\Debug\SinglePattern.dll
 E:\WorkSpace\Code\CodeLib\DesignPattern\DesignPattern\obj\Debug\SinglePattern.pdb
+D:\Project\CodeLib\DesignPattern\DesignPattern\bin\Debug\SinglePattern.dll
+D:\Project\CodeLib\DesignPattern\DesignPattern\bin\Debug\SinglePattern.pdb
+D:\Project\CodeLib\DesignPattern\DesignPattern\obj\Debug\SinglePattern.csprojResolveAssemblyReference.cache
+D:\Project\CodeLib\DesignPattern\DesignPattern\obj\Debug\SinglePattern.dll
+D:\Project\CodeLib\DesignPattern\DesignPattern\obj\Debug\SinglePattern.pdb

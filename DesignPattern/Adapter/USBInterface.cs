@@ -4,7 +4,7 @@
     {
         public void USBReadMsg()
         {
-            var adapter=new PS2ToUSB();
+            var adapter=new PS2ToUSBAdapter();
             adapter.ReadMsg();
         }
     }

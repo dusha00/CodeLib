@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Adapter;
 using BuilderPattern;
+using Decorator;
 using FactoryMethod.MySqlFactory;
 using FactoryMethod.OracleFactory;
 using FactoryMethod.SqlFactory;
@@ -66,9 +67,17 @@ namespace ConsoleInfo
             //Console.WriteLine(cloneProto.Id);
             //Console.Read();
 
-            //适配器模式
-            var usbInterface = new PS2ToUSB();
-            usbInterface.USBReadMsg();
+            ////适配器模式
+            //var usbInterface = new PS2ToUSBAdapter();
+            //usbInterface.USBReadMsg();
+            //Console.ReadKey();
+
+            //装饰者模式
+            Tank tank=new XiNiuTank();
+            tank=new Missile(tank);
+            tank.Show();
+            tank=new Cannon(tank);
+            tank.Show();
             Console.ReadKey();
         }
     }

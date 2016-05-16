@@ -8,3 +8,8 @@ E:\WorkSpace\Code\CodeLib\DesignPattern\AbstractFactory\bin\Debug\AbstractFactor
 E:\WorkSpace\Code\CodeLib\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.csprojResolveAssemblyReference.cache
 E:\WorkSpace\Code\CodeLib\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.dll
 E:\WorkSpace\Code\CodeLib\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.pdb
+D:\Project\CodeLib\DesignPattern\AbstractFactory\bin\Debug\AbstractFactory.dll
+D:\Project\CodeLib\DesignPattern\AbstractFactory\bin\Debug\AbstractFactory.pdb
+D:\Project\CodeLib\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.csprojResolveAssemblyReference.cache
+D:\Project\CodeLib\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.dll
+D:\Project\CodeLib\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.pdb

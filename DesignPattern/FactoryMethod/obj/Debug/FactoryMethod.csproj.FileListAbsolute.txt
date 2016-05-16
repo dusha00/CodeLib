@@ -7,3 +7,8 @@ E:\WorkSpace\Code\CodeLib\DesignPattern\FactoryMethod\bin\Debug\FactoryMethod.pd
 E:\WorkSpace\Code\CodeLib\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.csprojResolveAssemblyReference.cache
 E:\WorkSpace\Code\CodeLib\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.dll
 E:\WorkSpace\Code\CodeLib\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.pdb
+D:\Project\CodeLib\DesignPattern\FactoryMethod\bin\Debug\FactoryMethod.dll
+D:\Project\CodeLib\DesignPattern\FactoryMethod\bin\Debug\FactoryMethod.pdb
+D:\Project\CodeLib\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.csprojResolveAssemblyReference.cache
+D:\Project\CodeLib\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.dll
+D:\Project\CodeLib\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.pdb
