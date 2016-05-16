@@ -58,3 +58,9 @@ D:\Project\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\Bridge.pdb
 D:\Project\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\Decorator.pdb
 D:\Project\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\Composite.dll
 D:\Project\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\Composite.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\Bridge.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\Composite.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\Decorator.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\Bridge.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\Composite.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\ConsoleInfo\bin\Debug\Decorator.pdb
