@@ -48,41 +48,45 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AbstractFactory\AbstractFactory.csproj">
+    <ProjectReference Include="..\AbstractFactory\04.AbstractFactory.csproj">
       <Project>{c80607fd-0b73-4027-8560-73ac5116891b}</Project>
-      <Name>AbstractFactory</Name>
+      <Name>04.AbstractFactory</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Adapter\Adapter.csproj">
+    <ProjectReference Include="..\Adapter\07.Adapter.csproj">
       <Project>{2c28f95e-9811-4a6b-82cb-8d5a9f83a74c}</Project>
-      <Name>Adapter</Name>
+      <Name>07.Adapter</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Bridge\Bridge.csproj">
+    <ProjectReference Include="..\Bridge\08.Bridge.csproj">
       <Project>{f10c9647-ce6b-41d9-a048-78b7503c888b}</Project>
-      <Name>Bridge</Name>
+      <Name>08.Bridge</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BuilderPattern\BuilderPattern.csproj">
+    <ProjectReference Include="..\BuilderPattern\05.BuilderPattern.csproj">
       <Project>{0d9ee577-cf75-4bfe-ae5e-b95b9cd081da}</Project>
-      <Name>BuilderPattern</Name>
+      <Name>05.BuilderPattern</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Decorator\Decorator.csproj">
+    <ProjectReference Include="..\Composite\10.Composite.csproj">
+      <Project>{cf0d4a72-ccb7-45cd-a3c8-b93ed0ba2b38}</Project>
+      <Name>10.Composite</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Decorator\09.Decorator.csproj">
       <Project>{8728b436-6b73-4cdb-95ca-1a768e30e6dc}</Project>
-      <Name>Decorator</Name>
+      <Name>09.Decorator</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DesignPattern\SinglePattern.csproj">
+    <ProjectReference Include="..\DesignPattern\01.SinglePattern.csproj">
       <Project>{277FBBF5-211D-4F91-B3F0-47CB2EAAB95D}</Project>
-      <Name>SinglePattern</Name>
+      <Name>01.SinglePattern</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FactoryMethod\FactoryMethod.csproj">
+    <ProjectReference Include="..\FactoryMethod\03.FactoryMethod.csproj">
       <Project>{f06de091-8524-4d4a-ae26-066b55be6780}</Project>
-      <Name>FactoryMethod</Name>
+      <Name>03.FactoryMethod</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Prototype\Prototype.csproj">
+    <ProjectReference Include="..\Prototype\06.Prototype.csproj">
       <Project>{d6834d7d-e60c-4463-afca-8ecf981b54a7}</Project>
-      <Name>Prototype</Name>
+      <Name>06.Prototype</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SimpleFactory\SimpleFactory.csproj">
+    <ProjectReference Include="..\SimpleFactory\02.SimpleFactory.csproj">
       <Project>{3B475288-4CF9-454B-88E0-0B2A1B08C7FC}</Project>
-      <Name>SimpleFactory</Name>
+      <Name>02.SimpleFactory</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
