@@ -1,0 +1,4 @@
+D:\Project\CodeLib\DesignPattern\Prototype\bin\Debug\Prototype.dll
+D:\Project\CodeLib\DesignPattern\Prototype\bin\Debug\Prototype.pdb
+D:\Project\CodeLib\DesignPattern\Prototype\obj\Debug\Prototype.dll
+D:\Project\CodeLib\DesignPattern\Prototype\obj\Debug\Prototype.pdb

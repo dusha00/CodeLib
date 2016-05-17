@@ -1,0 +1,4 @@
+D:\Project\CodeLib\DesignPattern\Bridge\bin\Debug\Bridge.dll
+D:\Project\CodeLib\DesignPattern\Bridge\bin\Debug\Bridge.pdb
+D:\Project\CodeLib\DesignPattern\Bridge\obj\Debug\Bridge.dll
+D:\Project\CodeLib\DesignPattern\Bridge\obj\Debug\Bridge.pdb

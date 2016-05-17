@@ -1,0 +1,4 @@
+D:\Project\CodeLib\DesignPattern\Adapter\bin\Debug\Adapter.dll
+D:\Project\CodeLib\DesignPattern\Adapter\bin\Debug\Adapter.pdb
+D:\Project\CodeLib\DesignPattern\Adapter\obj\Debug\Adapter.dll
+D:\Project\CodeLib\DesignPattern\Adapter\obj\Debug\Adapter.pdb

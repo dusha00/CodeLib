@@ -1,0 +1,5 @@
+D:\Project\CodeLib\DesignPattern\Composite\bin\Debug\Composite.dll
+D:\Project\CodeLib\DesignPattern\Composite\bin\Debug\Composite.pdb
+D:\Project\CodeLib\DesignPattern\Composite\obj\Debug\Composite.csprojResolveAssemblyReference.cache
+D:\Project\CodeLib\DesignPattern\Composite\obj\Debug\Composite.dll
+D:\Project\CodeLib\DesignPattern\Composite\obj\Debug\Composite.pdb
