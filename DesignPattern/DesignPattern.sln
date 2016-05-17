@@ -33,7 +33,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.Template", "Template\14.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.Command", "Command\15.Command.csproj", "{7D945ED4-AE25-44F6-B1E3-28DD238C984D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{F1C25080-EF16-44C8-A3E5-FB6FFC30351D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.Iterator", "Iterator\16.Iterator.csproj", "{F1C25080-EF16-44C8-A3E5-FB6FFC30351D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.Facade", "Facade\11.Facade.csproj", "{F6F85145-9DF4-4CA5-A1A0-A50DCB5DA591}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{F1C25080-EF16-44C8-A3E5-FB6FFC30351D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1C25080-EF16-44C8-A3E5-FB6FFC30351D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1C25080-EF16-44C8-A3E5-FB6FFC30351D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F85145-9DF4-4CA5-A1A0-A50DCB5DA591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F85145-9DF4-4CA5-A1A0-A50DCB5DA591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F85145-9DF4-4CA5-A1A0-A50DCB5DA591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F85145-9DF4-4CA5-A1A0-A50DCB5DA591}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
