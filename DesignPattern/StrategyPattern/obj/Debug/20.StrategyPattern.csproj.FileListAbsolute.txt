@@ -1,5 +1,0 @@
-E:\WorkSpace\Code\CodeLib\DesignPattern\StrategyPattern\bin\Debug\StrategyPattern.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\StrategyPattern\bin\Debug\StrategyPattern.pdb
-E:\WorkSpace\Code\CodeLib\DesignPattern\StrategyPattern\obj\Debug\20.StrategyPattern.csprojResolveAssemblyReference.cache
-E:\WorkSpace\Code\CodeLib\DesignPattern\StrategyPattern\obj\Debug\StrategyPattern.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\StrategyPattern\obj\Debug\StrategyPattern.pdb

@@ -1,5 +1,0 @@
-E:\WorkSpace\Code\CodeLib\DesignPattern\Decorator\bin\Debug\Decorator.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\Decorator\bin\Debug\Decorator.pdb
-E:\WorkSpace\Code\CodeLib\DesignPattern\Decorator\obj\Debug\09.Decorator.csprojResolveAssemblyReference.cache
-E:\WorkSpace\Code\CodeLib\DesignPattern\Decorator\obj\Debug\Decorator.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\Decorator\obj\Debug\Decorator.pdb

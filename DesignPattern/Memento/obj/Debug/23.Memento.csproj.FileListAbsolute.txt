@@ -1,4 +1,0 @@
-E:\WorkSpace\Code\CodeLib\DesignPattern\Memento\bin\Debug\Memento.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\Memento\bin\Debug\Memento.pdb
-E:\WorkSpace\Code\CodeLib\DesignPattern\Memento\obj\Debug\Memento.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\Memento\obj\Debug\Memento.pdb

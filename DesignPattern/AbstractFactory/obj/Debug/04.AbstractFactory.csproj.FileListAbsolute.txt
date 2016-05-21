@@ -1,5 +1,0 @@
-E:\WorkSpace\Code\CodeLib\DesignPattern\AbstractFactory\bin\Debug\AbstractFactory.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\AbstractFactory\bin\Debug\AbstractFactory.pdb
-E:\WorkSpace\Code\CodeLib\DesignPattern\AbstractFactory\obj\Debug\04.AbstractFactory.csprojResolveAssemblyReference.cache
-E:\WorkSpace\Code\CodeLib\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\AbstractFactory\obj\Debug\AbstractFactory.pdb

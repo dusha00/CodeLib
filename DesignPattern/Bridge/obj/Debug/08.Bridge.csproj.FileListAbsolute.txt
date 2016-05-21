@@ -1,5 +1,0 @@
-E:\WorkSpace\Code\CodeLib\DesignPattern\Bridge\bin\Debug\Bridge.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\Bridge\bin\Debug\Bridge.pdb
-E:\WorkSpace\Code\CodeLib\DesignPattern\Bridge\obj\Debug\08.Bridge.csprojResolveAssemblyReference.cache
-E:\WorkSpace\Code\CodeLib\DesignPattern\Bridge\obj\Debug\Bridge.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\Bridge\obj\Debug\Bridge.pdb

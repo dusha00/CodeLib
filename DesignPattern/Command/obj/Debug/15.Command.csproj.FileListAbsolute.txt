@@ -1,4 +1,0 @@
-E:\WorkSpace\Code\CodeLib\DesignPattern\Command\bin\Debug\Command.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\Command\bin\Debug\Command.pdb
-E:\WorkSpace\Code\CodeLib\DesignPattern\Command\obj\Debug\Command.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\Command\obj\Debug\Command.pdb

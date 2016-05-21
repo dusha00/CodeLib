@@ -1,4 +1,0 @@
-E:\WorkSpace\Code\CodeLib\DesignPattern\Template\bin\Debug\Template.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\Template\bin\Debug\Template.pdb
-E:\WorkSpace\Code\CodeLib\DesignPattern\Template\obj\Debug\Template.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\Template\obj\Debug\Template.pdb

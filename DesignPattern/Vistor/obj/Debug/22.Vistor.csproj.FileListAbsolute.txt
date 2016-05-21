@@ -1,4 +1,0 @@
-E:\WorkSpace\Code\CodeLib\DesignPattern\Vistor\bin\Debug\Vistor.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\Vistor\bin\Debug\Vistor.pdb
-E:\WorkSpace\Code\CodeLib\DesignPattern\Vistor\obj\Debug\Vistor.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\Vistor\obj\Debug\Vistor.pdb

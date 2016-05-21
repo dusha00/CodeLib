@@ -1,5 +1,0 @@
-E:\WorkSpace\Code\CodeLib\DesignPattern\State\bin\Debug\State.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\State\bin\Debug\State.pdb
-E:\WorkSpace\Code\CodeLib\DesignPattern\State\obj\Debug\19.State.csprojResolveAssemblyReference.cache
-E:\WorkSpace\Code\CodeLib\DesignPattern\State\obj\Debug\State.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\State\obj\Debug\State.pdb

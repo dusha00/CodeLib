@@ -1,4 +1,0 @@
-E:\WorkSpace\Code\CodeLib\DesignPattern\Composite\bin\Debug\Composite.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\Composite\bin\Debug\Composite.pdb
-E:\WorkSpace\Code\CodeLib\DesignPattern\Composite\obj\Debug\Composite.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\Composite\obj\Debug\Composite.pdb

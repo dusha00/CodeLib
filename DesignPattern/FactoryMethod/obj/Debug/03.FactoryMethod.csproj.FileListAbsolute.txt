@@ -1,5 +1,0 @@
-E:\WorkSpace\Code\CodeLib\DesignPattern\FactoryMethod\bin\Debug\FactoryMethod.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\FactoryMethod\bin\Debug\FactoryMethod.pdb
-E:\WorkSpace\Code\CodeLib\DesignPattern\FactoryMethod\obj\Debug\03.FactoryMethod.csprojResolveAssemblyReference.cache
-E:\WorkSpace\Code\CodeLib\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\FactoryMethod\obj\Debug\FactoryMethod.pdb

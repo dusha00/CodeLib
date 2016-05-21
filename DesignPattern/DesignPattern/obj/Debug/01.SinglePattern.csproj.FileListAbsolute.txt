@@ -1,5 +1,0 @@
-E:\WorkSpace\Code\CodeLib\DesignPattern\DesignPattern\bin\Debug\SinglePattern.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\DesignPattern\bin\Debug\SinglePattern.pdb
-E:\WorkSpace\Code\CodeLib\DesignPattern\DesignPattern\obj\Debug\01.SinglePattern.csprojResolveAssemblyReference.cache
-E:\WorkSpace\Code\CodeLib\DesignPattern\DesignPattern\obj\Debug\SinglePattern.dll
-E:\WorkSpace\Code\CodeLib\DesignPattern\DesignPattern\obj\Debug\SinglePattern.pdb
