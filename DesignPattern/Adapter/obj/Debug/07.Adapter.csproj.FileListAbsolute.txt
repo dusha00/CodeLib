@@ -1,0 +1,5 @@
+E:\WorkSpace\Code\CodeLib\DesignPattern\Adapter\bin\Debug\Adapter.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\Adapter\bin\Debug\Adapter.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\Adapter\obj\Debug\07.Adapter.csprojResolveAssemblyReference.cache
+E:\WorkSpace\Code\CodeLib\DesignPattern\Adapter\obj\Debug\Adapter.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\Adapter\obj\Debug\Adapter.pdb

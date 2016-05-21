@@ -1,0 +1,5 @@
+E:\WorkSpace\Code\CodeLib\DesignPattern\SimpleFactory\bin\Debug\SimpleFactory.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\SimpleFactory\bin\Debug\SimpleFactory.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\SimpleFactory\obj\Debug\02.SimpleFactory.csprojResolveAssemblyReference.cache
+E:\WorkSpace\Code\CodeLib\DesignPattern\SimpleFactory\obj\Debug\SimpleFactory.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\SimpleFactory\obj\Debug\SimpleFactory.pdb

@@ -1,0 +1,4 @@
+E:\WorkSpace\Code\CodeLib\DesignPattern\Flyweight\bin\Debug\Flyweight.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\Flyweight\bin\Debug\Flyweight.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\Flyweight\obj\Debug\Flyweight.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\Flyweight\obj\Debug\Flyweight.pdb

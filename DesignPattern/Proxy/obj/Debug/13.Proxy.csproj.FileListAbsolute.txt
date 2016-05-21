@@ -1,0 +1,4 @@
+E:\WorkSpace\Code\CodeLib\DesignPattern\Proxy\bin\Debug\Proxy.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\Proxy\bin\Debug\Proxy.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\Proxy\obj\Debug\Proxy.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\Proxy\obj\Debug\Proxy.pdb

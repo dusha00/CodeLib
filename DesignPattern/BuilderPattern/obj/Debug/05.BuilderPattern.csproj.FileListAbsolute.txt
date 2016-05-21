@@ -1,0 +1,4 @@
+E:\WorkSpace\Code\CodeLib\DesignPattern\BuilderPattern\bin\Debug\BuilderPattern.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\BuilderPattern\bin\Debug\BuilderPattern.pdb
+E:\WorkSpace\Code\CodeLib\DesignPattern\BuilderPattern\obj\Debug\BuilderPattern.dll
+E:\WorkSpace\Code\CodeLib\DesignPattern\BuilderPattern\obj\Debug\BuilderPattern.pdb
