@@ -1,0 +1,9 @@
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\CacheTests\bin\Debug\CacheTests.dll
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\CacheTests\bin\Debug\CacheTests.pdb
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\CacheTests\bin\Debug\Cache.dll
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\CacheTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\CacheTests\bin\Debug\Cache.pdb
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\CacheTests\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\CacheTests\obj\Debug\CacheTests.csprojResolveAssemblyReference.cache
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\CacheTests\obj\Debug\CacheTests.dll
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\CacheTests\obj\Debug\CacheTests.pdb

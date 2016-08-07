@@ -1,0 +1,5 @@
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\Config\bin\Debug\Config.dll
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\Config\bin\Debug\Config.pdb
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\Config\obj\Debug\Config.csprojResolveAssemblyReference.cache
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\Config\obj\Debug\Config.dll
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\Config\obj\Debug\Config.pdb

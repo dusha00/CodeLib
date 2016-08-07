@@ -1,0 +1,5 @@
+d:\users\fuwei16\documents\visual studio 2015\Projects\HttpModule\Module.Lib\bin\Debug\Module.Lib.dll
+d:\users\fuwei16\documents\visual studio 2015\Projects\HttpModule\Module.Lib\bin\Debug\Module.Lib.pdb
+d:\users\fuwei16\documents\visual studio 2015\Projects\HttpModule\Module.Lib\obj\Debug\Module.Lib.dll
+d:\users\fuwei16\documents\visual studio 2015\Projects\HttpModule\Module.Lib\obj\Debug\Module.Lib.pdb
+D:\Users\fuwei16\Documents\Visual Studio 2015\Projects\HttpModule\Module.Lib\obj\Debug\Module.Lib.csprojResolveAssemblyReference.cache
